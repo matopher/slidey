@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-container {
+  position: relative;
+}
+.slide-container img {
+  position: relative;
+  top: 0;
+  left: 0;
+  /* z-index: -99; */
+}
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  color: #fff;
+}
