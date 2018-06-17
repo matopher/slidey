@@ -45,7 +45,7 @@ class App extends Component {
   };
 
   // Toggle overlay text on click or hover
-  handleMouseHoverOrClickk = () => {
+  handleMouseHoverOrClick = () => {
     this.setState(this.toggleHoverState);
   };
 
